@@ -11,15 +11,16 @@ function Home() {
   
 
   useEffect(() => {
+
     const getPost = async () => {
       const data = await getDocs(collectionRef);
       setPostList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
       
     };
-
+    
     getPost()
   
-  }, [postList])
+  })
 
   const deleteDocHandler = async (id) => {
     const postDoc = doc(db, "posts", id);

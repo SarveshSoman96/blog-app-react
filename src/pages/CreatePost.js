@@ -42,7 +42,7 @@ function CreatePost() {
 
   useEffect(() => {
     if(!isAuth) {navigate("/login")}
-  }, [])
+  })
   
 
   return (
