@@ -1,0 +1,28 @@
+.login-container{
+    width: 100%;
+    padding-top: 8rem;
+}
+
+.login-container .loginPage{
+    max-width: 20rem;
+    background-color: blueviolet;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px;
+}
+.login-heading{
+    font-size: 1.5rem;
+    color: white;
+}
+.google-login{
+    all: unset;
+    padding: 3px 1rem;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.google-login:hover{
+    transform: translateY(-1px);
+}

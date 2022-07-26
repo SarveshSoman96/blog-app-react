@@ -1,0 +1,33 @@
+.navbar{
+    max-width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 12rem;
+    justify-content: space-between;
+    gap: 10em;
+}
+
+.heading{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.navbar ul{
+    display: flex;
+    gap: 7em;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(204, 198, 188);
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+
+

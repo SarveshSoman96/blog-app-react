@@ -1,0 +1,24 @@
+.homepage{
+    padding-top: 2rem;
+}
+.postContainer{
+    width: 30%;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem auto;
+    color: blueviolet;
+}
+.postContainer .postHeading{
+    display: flex;
+    justify-content: space-between;
+}
+/* .postContainer .description{
+    height: 5rem;
+} */
+
+.postContainer .postHeading .icons button{
+    all: unset;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 1em;
+}   
